@@ -61,7 +61,7 @@ etas-diagnostic-framework/
 
 The temporal ETAS model (Ogata 1988, 1998) represents seismicity as a self-exciting point process. The conditional intensity function is:
 
-$$\lambda(t \mid \mathcal{H}_t) = \mu + \sum_{j:\, t_j < t} K \exp[\alpha(m_j - m_0)]\,(t - t_j + c)^{-p}$$
+$$\lambda(t \mid \mathcal{H}_t) = \mu + \sum_{j:\, t_j < t} K \exp[\alpha(m_j - m_0)] \,(t - t_j + c)^{-p}$$
 
 where:
 
