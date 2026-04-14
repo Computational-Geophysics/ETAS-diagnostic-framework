@@ -425,7 +425,7 @@ If you use this code or framework in your research, please cite:
   author  = {Petrillo, Giuseppe and Dal Zilio, Luca},
   title   = {A Machine Learning Diagnostic Framework for Nonstationary {ETAS} Aftershock Modeling},
   journal = {submitted},
-  year    = {2025}
+  year    = {2026}
 }
 ```
 
