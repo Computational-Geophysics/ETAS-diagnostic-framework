@@ -1,0 +1,20 @@
+NONSTATIONARY ETAS (log-spline) — SUMMARY
+
+Input Mc (Mth) = 2.5
+M0 = 2.5
+mu_ref = 0.01  [events/day]
+K0_ref = 0.02  [events/day]
+N events used = 1180
+Catalog duration (days) = 11.2709
+
+--- ABIC selection ---
+best w_smooth = 0.05
+best ABIC = -9158.194462850357
+Optimizer success = True
+Optimizer message = CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+obj_min = -4580.0972314251785
+
+--- ETAS parameters ---
+c = 0.000697928620695
+alpha = 2.35105355077
+p = 0.783134254111
