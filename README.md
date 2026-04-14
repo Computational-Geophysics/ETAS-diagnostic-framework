@@ -10,7 +10,7 @@
 
 This repository provides the complete numerical framework associated with the study:
 
-> G. Petrillo and L. Dal Zilio, *A Machine Learning Diagnostic Framework for Nonstationary ETAS Aftershock Modeling*, submitted (2025).
+> G. Petrillo and L. Dal Zilio, *A Machine Learning Diagnostic Framework for Nonstationary ETAS Aftershock Modeling*, submitted (2026).
 
 The framework integrates three independent analytical components:
 
@@ -421,7 +421,7 @@ Output: `anomaly_compare.png/.svg/.eps`
 If you use this code or framework in your research, please cite:
 
 ```bibtex
-@article{petrillo2025etas,
+@article{petrillo2026etas,
   author  = {Petrillo, Giuseppe and Dal Zilio, Luca},
   title   = {A Machine Learning Diagnostic Framework for Nonstationary {ETAS} Aftershock Modeling},
   journal = {submitted},
