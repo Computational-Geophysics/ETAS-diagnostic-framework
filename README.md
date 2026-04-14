@@ -83,8 +83,8 @@ The integral decomposes analytically into a background term µ(T − T₀) and a
 $$
 I_j=
 \begin{cases}
-\dfrac{(T-t_j+c)^{1-p}-c^{1-p}}{1-p} & \text{se } p\neq 1 \\
-\log\!\left(\dfrac{T-t_j+c}{c}\right) & \text{se } p=1
+\dfrac{(T-t_j+c)^{1-p}-c^{1-p}}{1-p} & \text{if } p\neq 1 \\
+\log\!\left(\dfrac{T-t_j+c}{c}\right) & \text{if } p=1
 \end{cases}
 $$
 
