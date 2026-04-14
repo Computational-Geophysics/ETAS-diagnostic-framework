@@ -72,7 +72,7 @@ where:
 | α         | Magnitude scaling of productivity |
 | c         | Omori-Utsu time offset [days] |
 | p         | Omori-Utsu temporal decay exponent |
-| m₀        | Reference magnitude (set equal to Mₜ) |
+| m₀        | Reference magnitude (set equal to Mc) |
 
 The five parameters θ = (µ, K, α, c, p) are estimated by maximizing the log-likelihood:
 
@@ -80,7 +80,7 @@ $$\log \mathcal{L}(\theta) = \sum_{i=1}^{N} \log \lambda(t_i \mid \mathcal{H}_{t
 
 The integral decomposes analytically into a background term µ(T − T₀) and a triggering term with closed-form antiderivative:
 
-$$I_j = \begin{cases} \dfrac{(T - t_j + c)^{1-p} - c^{1-p}}{1 - p} & p \neq 1 \\[6pt] \log\!\left(\dfrac{T - t_j + c}{c}\right) & p = 1 \end{cases}$$
+$$I_j = \begin{cases} \dfrac{(T - t_j + c)^{1-p} - c^{1-p}}{1 - p} & p \neq 1 \\ \log\!\left(\dfrac{T - t_j + c}{c}\right) & p = 1 \end{cases}$$
 
 Model selection uses the Akaike Information Criterion:
 
