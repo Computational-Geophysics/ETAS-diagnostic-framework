@@ -104,15 +104,15 @@ should constitute a homogeneous Poisson process with unit rate if the model is c
 
 The nonstationary extension allows µ and K₀ to vary continuously in time while holding the decay parameters (c, α, p) constant:
 
-$$\lambda(t \mid \mathcal{H}_t) = \mu(t) + \sum_{j:\, t_j < t} K(t_j)\,\exp[\alpha(m_j - M_0)]\,(t - t_j + c)^{-p}$$
+$$\lambda(t \mid \mathcal{H}_t) = \mu(t) + \sum_{j: t_j < t} K(t_j)\exp[\alpha(m_j - M_0)]\,(t - t_j + c)^{-p}$$
 
 Time dependence is parameterized via multiplicative anomaly factors relative to fixed reference values (µ_ref, K₀_ref):
 
-$$\mu(t) = \mu_{\mathrm{ref}}\, q_\mu(t), \qquad K(t) = K_{0,\mathrm{ref}}\, q_K(t)$$
+$$\mu(t) = \mu_{\mathrm{ref}} q_\mu(t), \qquad K(t) = K_{0,\mathrm{ref}} q_K(t)$$
 
 where positivity is enforced through an exponential link applied to cubic spline functions:
 
-$$q_\mu(t) = \exp\!\bigl(s_\mu(t)\bigr), \qquad q_K(t) = \exp\!\bigl(s_K(t)\bigr)$$
+$$q_\mu(t) = \exp\bigl(s_\mu(t)\bigr), \qquad q_K(t) = \exp\bigl(s_K(t)\bigr)$$
 
 The splines s_µ(t) and s_K(t) are defined on a uniform set of N_knots = 6 interior knots spanning the observation window [T₀, T], with natural boundary conditions.
 
