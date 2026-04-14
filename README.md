@@ -80,12 +80,11 @@ $$\log \mathcal{L}(\theta) = \sum_{i=1}^{N} \log \lambda(t_i \mid \mathcal{H}_{t
 
 The integral decomposes analytically into a background term µ(T − T₀) and a triggering term with closed-form antiderivative:
 
-$$I_j = \begin{cases} \dfrac{(T - t_j + c)^{1-p} - c^{1-p}}{1 - p} & p \neq 1 \\ \log\!\left(\dfrac{T - t_j + c}{c}\right) & p = 1 \end{cases}$$
-
-$$I_j =
+$$
+I_j=
 \begin{cases}
-\dfrac{(T - t_j + c)^{1-p} - c^{1-p}}{1 - p} & \text{se } p \neq 1 \\[6pt]
-\log\!\left(\dfrac{T - t_j + c}{c}\right) & \text{se } p = 1
+\dfrac{(T-t_j+c)^{1-p}-c^{1-p}}{1-p} & \text{se } p\neq 1 \\
+\log\!\left(\dfrac{T-t_j+c}{c}\right) & \text{se } p=1
 \end{cases}
 $$
 
