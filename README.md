@@ -14,8 +14,8 @@ This repository provides the complete numerical framework associated with the st
 
 The framework integrates three independent analytical components:
 
-1. **Stationary ETAS inference** — maximum likelihood estimation of the five standard ETAS parameters from an earthquake catalog.
-2. **Nonstationary ETAS inference** — penalized log-spline extension in which the background rate µ(t) and triggering productivity K₀(t) are allowed to vary continuously in time, with ABIC-based smoothing selection.
+1. **Stationary temporal ETAS inference** — maximum likelihood estimation of the five standard ETAS parameters from an earthquake catalog.
+2. **Nonstationary temporal ETAS inference** — penalized log-spline extension in which the background rate µ(t) and triggering productivity K₀(t) are allowed to vary continuously in time, with ABIC-based smoothing selection.
 3. **Model-agnostic anomaly detection** — unsupervised Isolation Forest analysis applied to multivariate catalog features, serving as an independent diagnostic to assess whether statistically inferred parameter transients correspond to observable changes in seismicity properties.
 
 The framework is applied to the aftershock sequence of the **2025 Mw 7.1 Dingri earthquake** in southern Tibet (Yao et al. 2025), and validated on a family of semi-synthetic catalogs with injected perturbations of controlled amplitude. While developed for the Dingri sequence, all components are general and directly transferable to any well-recorded aftershock sequence.
